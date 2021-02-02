@@ -1,0 +1,12 @@
+{
+  "name": "messageApp",
+  "displayName": "messageApp",
+  "expo": {
+    "name": "messageApp",
+    "slug": "messageApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
