@@ -49,9 +49,9 @@ export default function App() {
     let mailingAddress = { name: contact.name, street: contact.addresses[0].street, city: contact.addresses[0].city, state: contact.addresses[0].region, zip: contact.addresses[0].postalCode };
     setAddress(mailingAddress);
   }
-  const sendEmail = async () => {
-    console.log('made it to sendEmail')
-  }
+  // const sendEmail = async () => {
+  //   console.log('made it to sendEmail')
+  // }
 
   return (
     <View style={styles.container}>
